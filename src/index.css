@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --GRAY: #F3F3F3;
+  --NAV-GRAY: #5C5C5C;
+  --NAV-GRAY-ACTIVE: #6e6e6e;
+}
 
 * {
   margin: 0;
@@ -8,4 +14,5 @@
 
 body {
   background-image: url(https://storage.googleapis.com/monstercat/background-tile.webp);
+  font-family: 'Montserrat', sans-serif;
 }

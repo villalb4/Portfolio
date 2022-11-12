@@ -4,24 +4,42 @@ header {
 
 .header_content {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   max-width: 1130px;
   margin: 0 auto;
-  padding: 25px 0;
-  font-family: 'Nunito', sans-serif;
+  padding: 26px 0 25px;
+  color: var(--NAV-GRAY);
+}
+
+.headerC_divLeft {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
-  font-weight: 800;
-  font-size: 30px;
-  color: #FFF;
-  margin-right: 70px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  margin-right: 65px;
 }
 
 nav {
   display: flex;
   gap: 25px;
-  color: #FFF;
+  font-weight: 500;
   font-size: 16px;
-  font-weight: 700;
+  line-height: 20px; 
 }
+
+.headerC_divRight > button {
+  border: 1px solid var(--NAV-GRAY);
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--NAV-GRAY);
+  padding: 8px 22px 9px 21px;
+  cursor: pointer;
+}
+
