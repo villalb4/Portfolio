@@ -12,7 +12,7 @@ header {
   color: var(--NAV-GRAY);
 }
 
-.headerC_divLeft {
+.header_divContentLeft {
   display: flex;
   align-items: center;
 }
@@ -32,7 +32,18 @@ nav {
   line-height: 20px; 
 }
 
-.headerC_divRight > button {
+.header_span1,
+.header_span2 {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.header_span1:hover,
+.header_span2:hover {
+  color: var(--NAV-GRAY-ACTIVE);
+}
+
+.header_divContentRight > button {
   border: 1px solid var(--NAV-GRAY);
   background-color: transparent;
   font-weight: 500;
