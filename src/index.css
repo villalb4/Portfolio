@@ -3,7 +3,7 @@
 :root {
   --GRAY: #F3F3F3;
   --NAV-GRAY: #5C5C5C;
-  --NAV-GRAY-ACTIVE: #6e6e6e;
+  --NAV-GRAY-ACTIVE: #8c8c8c;
 }
 
 * {
@@ -13,6 +13,6 @@
 }
 
 body {
-  background-image: url(https://storage.googleapis.com/monstercat/background-tile.webp);
+  background-image: url(https://raw.githubusercontent.com/villalb4/Portfolio/main/src/images/background.jpg);
   font-family: 'Montserrat', sans-serif;
 }
