@@ -5,14 +5,14 @@ function Header() {
   return (
     <header>
       <div className='header_content'>
-        <div className='headerC_divLeft'>
+        <div className='header_divContentLeft'>
           <span className='logo'>VILLALBA</span>
           <nav>
-            <span>sobre mi</span>
-            <span>proyectos</span>
+            <span className='header_span1'>sobre mi</span>
+            <span className='header_span2'>proyectos</span>
           </nav>
         </div>
-        <div className='headerC_divRight'>
+        <div className='header_divContentRight'>
           <button>resumen</button>
         </div>
       </div>
