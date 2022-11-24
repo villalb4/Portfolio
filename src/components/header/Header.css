@@ -44,6 +44,10 @@ nav {
   line-height: 18px;
   color: #858585;
   cursor: pointer;
+  transition: all ease 0.3s;
+}
+.header_navSpan:hover {
+    color: #000000;
 }
 
 .header_idomaSpan, .header_horarioSpan {
