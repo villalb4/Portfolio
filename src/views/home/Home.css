@@ -1,0 +1,31 @@
+section {
+  max-width: 1049px;
+  margin: 0 auto;
+  padding-top: 65px;
+  text-align: center;
+}
+
+h1 {
+
+  font-family: 'Cormorant';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 78.95px;
+  line-height: 96px;
+  /* identical to box height */
+  
+  
+  color: #E1E1E1;
+}
+
+p{
+  font-family: 'Cormorant';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 75px;
+  /* identical to box height */
+  
+  
+  color: #292F35;
+}
