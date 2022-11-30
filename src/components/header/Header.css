@@ -1,13 +1,14 @@
 header {
   font-family: 'Raleway', sans-serif;
   position: relative;
+  background-color: #ffffff;
 }
 
 .header_content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1049px;
+  max-width: 907px;
   margin: 0 auto;
   padding: 31px 0;
   color: var(--NAV-GRAY);
@@ -55,4 +56,11 @@ nav {
   font-size: 15px;
   line-height: 18px;
   color: #949494;
+  cursor: pointer;
 }
+
+.header_horarioSpan {
+  /* font-family: inter; */
+  pointer-events: none;
+}
+
